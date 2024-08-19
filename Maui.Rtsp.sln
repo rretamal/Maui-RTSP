@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35201.85
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maui.Rtsp", "Maui.Rtsp\Maui.Rtsp.csproj", "{95AC237F-154F-4769-AA8B-CC6B85AC304E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maui.Rtsp.AndroidLib", "Maui.Rtsp.AndroidLib\Maui.Rtsp.AndroidLib.csproj", "{760B5D2C-8538-422F-9D76-56452375713F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{95AC237F-154F-4769-AA8B-CC6B85AC304E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95AC237F-154F-4769-AA8B-CC6B85AC304E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95AC237F-154F-4769-AA8B-CC6B85AC304E}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{95AC237F-154F-4769-AA8B-CC6B85AC304E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95AC237F-154F-4769-AA8B-CC6B85AC304E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{760B5D2C-8538-422F-9D76-56452375713F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{760B5D2C-8538-422F-9D76-56452375713F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{760B5D2C-8538-422F-9D76-56452375713F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{760B5D2C-8538-422F-9D76-56452375713F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {887B074B-5BB2-45F7-9A88-A01068692BAA}
+	EndGlobalSection
+EndGlobal
