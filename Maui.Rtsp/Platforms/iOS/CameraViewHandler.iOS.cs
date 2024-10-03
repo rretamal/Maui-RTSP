@@ -10,7 +10,9 @@ namespace Maui.Rtsp.Handlers
     {
         public static IPropertyMapper<ICameraView, CameraViewHandler> Mapper = new PropertyMapper<ICameraView, CameraViewHandler>(ViewHandler.ViewMapper)
         {
-            [nameof(ICameraView.Url)] = MapUrl
+            [nameof(ICameraView.Url)] = MapUrl,
+            [nameof(ICameraView.User)] = MapUser,
+            [nameof(ICameraView.Password)] = MapPassword
         };
 
         public CameraViewHandler() : base(Mapper)
