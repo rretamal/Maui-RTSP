@@ -13,14 +13,14 @@ A .NET MAUI application for streaming RTSP cameras with real-time video playback
 ### Features
 
 - **Real-time RTSP streaming** - Connect to IP cameras and view live feeds
-- **Cross-platform support** - Works on Android and iOS
+- **Android support** - The .NET 10 project targets Android; the iOS handler is present as a stub and is not enabled in the project file
 - **Custom CameraView control** - Reusable component for camera integration
 - **Authentication support** - Username/password authentication for secure cameras
 - **Clean architecture** - Built following SOLID principles and clean architecture patterns
 
 ### Technology Stack
 
-- **.NET MAUI 8.0** - Cross-platform framework
+- **.NET MAUI 10** - Cross-platform framework
 - **AndroidX Media3 ExoPlayer** - For video streaming
 - **Custom Android Library** - Native RTSP client integration
 - **MVVM Pattern** - Clean separation of concerns
@@ -44,7 +44,7 @@ Maui-RTSP/
 1. **Prerequisites**
 
    - Visual Studio 2022 with .NET MAUI workload
-   - .NET 8.0 SDK
+   - .NET 10 SDK
    - Android SDK (for Android development)
 
 2. **Clone and Build**
@@ -58,7 +58,7 @@ Maui-RTSP/
 
 3. **Run the Application**
    - Open the solution in Visual Studio
-   - Select your target platform (Android/iOS)
+   - Select an Android target
    - Press F5 to run
 
 ### Usage
@@ -116,14 +116,14 @@ Una aplicación .NET MAUI para transmitir cámaras RTSP con capacidades de repro
 ### Características
 
 - **Transmisión RTSP en tiempo real** - Conecta a cámaras IP y visualiza transmisiones en vivo
-- **Soporte multiplataforma** - Funciona en Android e iOS
+- **Soporte Android** - El proyecto .NET 10 apunta a Android; el handler iOS existe como stub y no está habilitado en el archivo de proyecto
 - **Control CameraView personalizado** - Componente reutilizable para integración de cámaras
 - **Soporte de autenticación** - Autenticación de usuario/contraseña para cámaras seguras
 - **Arquitectura limpia** - Construido siguiendo principios SOLID y patrones de arquitectura limpia
 
 ### Stack Tecnológico
 
-- **.NET MAUI 8.0** - Framework multiplataforma
+- **.NET MAUI 10** - Framework multiplataforma
 - **AndroidX Media3 ExoPlayer** - Para transmisión de video
 - **Biblioteca Android Personalizada** - Integración de cliente RTSP nativo
 - **Patrón MVVM** - Separación limpia de responsabilidades
@@ -147,7 +147,7 @@ Maui-RTSP/
 1. **Prerrequisitos**
 
    - Visual Studio 2022 con carga de trabajo .NET MAUI
-   - SDK .NET 8.0
+   - SDK .NET 10
    - SDK de Android (para desarrollo Android)
 
 2. **Clonar y Compilar**
@@ -161,7 +161,7 @@ Maui-RTSP/
 
 3. **Ejecutar la Aplicación**
    - Abre la solución en Visual Studio
-   - Selecciona tu plataforma objetivo (Android/iOS)
+   - Selecciona un objetivo Android
    - Presiona F5 para ejecutar
 
 ### Uso
