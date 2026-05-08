@@ -1,7 +1,6 @@
 ﻿using Android.Views;
 using Com.Alexvas.Rtsp.Codec;
 using Com.Alexvas.Utils;
-using Java.Interop;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -34,22 +33,6 @@ namespace Maui.Rtsp.Platforms.Android
             _height = height;
             videoFrameQueue = new VideoFrameQueue(100); 
             audioFrameQueue = new AudioFrameQueue(100); 
-        }
-
-        public void Dispose()
-        {
-        }
-
-        public void Disposed()
-        {
-        }
-
-        public void DisposeUnlessReferenced()
-        {
-        }
-
-        public void Finalized()
-        {
         }
 
         public void OnRtspAudioSampleReceived(byte[] data, int offset, int length, long timestamp)
@@ -179,22 +162,6 @@ namespace Maui.Rtsp.Platforms.Android
                 );
                 videoFrameQueue.Push(videoFrame);
             }
-        }
-
-        public void SetJniIdentityHashCode(int value)
-        {
-        }
-
-        public void SetJniManagedPeerState(JniManagedPeerStates value)
-        {
-        }
-
-        public void SetPeerReference(JniObjectReference reference)
-        {
-        }
-
-        public void UnregisterFromRuntime()
-        {
         }
 
         public void OnRtspDisconnecting()
